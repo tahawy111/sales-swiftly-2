@@ -1,4 +1,3 @@
-import TestComponent from "@/components/TestComponent";
 import { Button } from "@/components/ui/button";
 import { getAuthSession } from "@/lib/auth";
 import Image from "next/image";
@@ -15,7 +14,7 @@ export default async function Home() {
 
   return (
     <div className="">
-      <TestComponent />
+      <h1>Welcome to the Dashboard</h1>
     </div>
   );
 }

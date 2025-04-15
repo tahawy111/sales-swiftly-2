@@ -13,19 +13,19 @@ function Providers({ children }: { children: React.ReactNode }) {
     <>
       <SessionProvider>
         <Toaster />
-        <ThemeProvider
+        {/* <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem={false}
-          storageKey="discord-theme"
-        >
+          storageKey="sales-swiftly-theme"
+        > */}
           {/* <SocketProvider> */}
             <ModalProvider />
             {/* <QueryProvider> */}
               {children}
               {/* </QueryProvider> */}
           {/* </SocketProvider> */}
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
       </SessionProvider>
     </>
   );
